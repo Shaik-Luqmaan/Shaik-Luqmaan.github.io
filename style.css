@@ -162,6 +162,7 @@ img {
 .box a{
     color:black;
 }
+
 .gallery {
     display: grid;
     grid-gap: 20px;
@@ -169,7 +170,8 @@ img {
   }
   
 .gallery img {
-    width: 100%;
+    width: 150%;
+    height: 250px;
     box-shadow: var(--shadow);
 }
   
