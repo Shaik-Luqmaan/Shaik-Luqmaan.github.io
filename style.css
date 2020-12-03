@@ -36,7 +36,7 @@ article {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 10%;
+    padding: 40px 20%;
 }
 
 .para {
@@ -44,7 +44,9 @@ article {
     font-size: 100px;
     text-transform: uppercase;
     letter-spacing: 10px;
-    margin-left: 40%;
+    text-align: center;
+    padding: 5rem;
+    margin:0;
 }
 
 
@@ -92,11 +94,11 @@ img {
 
 .showcase {
     grid-area: showcase;
-    min-height: 400px;
+    min-height: 350px;
     background: url(img/pexels-scott-webb-2824173.jpg);
     background-size:cover;
     background-position: center;
-    padding: 3rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -107,16 +109,16 @@ img {
 .showcase h1 {
     font-family: 'Arimo', sans-serif;
     font-size: 4rem;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: black;
   }
   
 .showcase p {
     font-family: 'Arimo', sans-serif;
     font-size: 1.7rem;
-    margin-top: 0;
+    margin-top: 10px;
     color: black;
-  }
+}
   
 
 .top-box {
@@ -125,10 +127,11 @@ img {
     align-items: center;
     justify-items: center;
     box-shadow: var(--shadow);
-    padding: 1.5rem;
-  }
+    /* padding: 1.5rem; */
+}
   
 .top-box .price {
+    font-family: 'Arimo', sans-serif;
     font-size: 1.5rem;
 }
   
@@ -188,13 +191,12 @@ img {
       grid-template-columns: 1fr;
     }
 
+   
     .para{
-        font-size: 50px;
-
+        font-size: 20px;
     }
-
-  
   }
+
   @media (max-width: 500px) {
     .container {
       grid-template-areas:
@@ -212,7 +214,7 @@ img {
       }
   
       .para{
-          font-size: 40px;
+          font-size: 20px; 
       }
    
   }
