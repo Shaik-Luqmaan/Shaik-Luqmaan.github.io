@@ -10,6 +10,7 @@ html {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color:var(--dark);
+    margin:1px 2px;
 }
 
 
@@ -22,13 +23,6 @@ body {
   
 section{
     padding: 0.75rem;
-}
-
-.btn {
-    background: var(--dark);
-    color: var(--light);
-    padding: 0.6rem 1.3rem;
-    border: 0;
 }
   
 article {
@@ -45,11 +39,17 @@ article {
     text-transform: uppercase;
     letter-spacing: 10px;
     text-align: center;
-    padding: 5rem;
+    padding: 3rem;
     margin:0;
 }
 
-
+.sub-title{
+  font-family: 'Arimo', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding:0.3px;
+  margin: 0;
+}
 img {
     max-width: 100%;
 }
@@ -195,6 +195,10 @@ img {
     .para{
         font-size: 20px;
     }
+
+    .sub-title{
+      font-size: 13px;
+    }
   }
 
   @media (max-width: 500px) {
@@ -215,6 +219,10 @@ img {
   
       .para{
           font-size: 20px; 
+      }
+
+      .sub-title{
+        font-size: 12px;
       }
    
   }
