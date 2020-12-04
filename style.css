@@ -35,7 +35,7 @@ article {
 
 .para {
     font-family: 'Arimo', sans-serif;
-    font-size: 100px;
+    font-size: 80px;
     text-transform: uppercase;
     letter-spacing: 10px;
     text-align: center;
@@ -45,7 +45,7 @@ article {
 
 .sub-title{
   font-family: 'Arimo', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   padding:0.3px;
   margin: 0;
@@ -108,7 +108,7 @@ img {
   
 .showcase h1 {
     font-family: 'Arimo', sans-serif;
-    font-size: 4rem;
+    font-size: 3.4rem;
     margin-bottom: 5px;
     color: black;
   }
@@ -171,7 +171,7 @@ img {
   
 .gallery img {
     width: 150%;
-    height: 250px;
+    height: 300px;
     box-shadow: var(--shadow);
 }
   
@@ -195,7 +195,7 @@ img {
 
    
     .para{
-        font-size: 20px;
+        font-size:20px;
     }
 
     .sub-title{
